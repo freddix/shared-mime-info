@@ -2,4 +2,13 @@ inode/directory=nautilus.desktop;Thunar-folder-handler.desktop;pcmanfm.desktop;q
 x-scheme-handler/mailto=evolution.desktop;sylpheed.desktop
 x-scheme-handler/http=firefox.desktop;midori.desktop
 x-scheme-handler/https=firefox.desktop;midori.desktop
-
+x-scheme-handler/pnm=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/mms=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/net=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/rtp=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/rtmp=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/rtsp=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/mmsh=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/uvox=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/icy=totem.desktop;parole.desktop;mplayer2.desktop
+x-scheme-handler/icyx=totem.desktop;parole.desktop;mplayer2.desktop

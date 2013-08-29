@@ -1,7 +1,7 @@
 inode/directory=nautilus.desktop;Thunar-folder-handler.desktop;pcmanfm.desktop;qtfm-folder-handler.desktop
-x-scheme-handler/mailto=evolution.desktop;sylpheed.desktop
-x-scheme-handler/http=firefox.desktop;midori.desktop
-x-scheme-handler/https=firefox.desktop;midori.desktop
+x-scheme-handler/mailto=thunderbird.desktop;evolution.desktop;sylpheed.desktop
+x-scheme-handler/http=firefox.desktop;epiphany.desktop;midori.desktop;vimprobable2.desktop;dwb.desktop
+x-scheme-handler/https=firefox.desktop;epiphany.desktop;midori.desktop;vimprobable2.desktop;dwb.desktop
 x-scheme-handler/pnm=totem.desktop;parole.desktop;mplayer2.desktop
 x-scheme-handler/mms=totem.desktop;parole.desktop;mplayer2.desktop
 x-scheme-handler/net=totem.desktop;parole.desktop;mplayer2.desktop

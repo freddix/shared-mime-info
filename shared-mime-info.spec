@@ -1,12 +1,11 @@
 Summary:	Shared MIME-info specification
 Name:		shared-mime-info
-Version:	1.2
+Version:	1.3
 Release:	2
 License:	GPL
 Group:		Applications
 Source0:	http://freedesktop.org/~hadess/%{name}-%{version}.tar.xz
-# Source0-md5:	8f90f3f2b8478fa47e70678d34013f99
-Patch0:		%{name}-fdatasync.patch
+# Source0-md5:	743720bc4803dd69f55449013d350f31
 Source1:	audio.list
 Source2:	compressed.list
 Source3:	document.list
@@ -29,14 +28,16 @@ This is the freedesktop.org shared MIME info database.
 %prep
 %setup -q
 # revert https://bugs.freedesktop.org/show_bug.cgi?id=61472
-%patch0 -p1 -R
 
 %build
 %{__intltoolize}
 %{__aclocal}
 %{__autoconf}
 %{__automake}
+# https://bugs.freedesktop.org/show_bug.cgi?id=61472
+# https://bugs.freedesktop.org/show_bug.cgi?id=70366
 %configure \
+	ac_cv_func_fdatasync=no	\
 	--disable-silent-rules	\
 	--disable-update-mimedb
 # parallel build broken

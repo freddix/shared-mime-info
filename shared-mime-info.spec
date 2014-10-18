@@ -1,7 +1,7 @@
 Summary:	Shared MIME-info specification
 Name:		shared-mime-info
 Version:	1.3
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications
 Source0:	http://freedesktop.org/~hadess/%{name}-%{version}.tar.xz
@@ -61,7 +61,7 @@ cat %{SOURCE4} >> $RPM_BUILD_ROOT%{_desktopdir}/defaults.list
 cat %{SOURCE5} >> $RPM_BUILD_ROOT%{_desktopdir}/defaults.list
 cat %{SOURCE6} >> $RPM_BUILD_ROOT%{_desktopdir}/defaults.list
 
-rm -rf $RPM_BUILD_ROOT%{_datadir}/locale
+%{__rm} -r $RPM_BUILD_ROOT%{_datadir}/locale
 
 %clean
 rm -rf $RPM_BUILD_ROOT

@@ -1,11 +1,11 @@
 Summary:	Shared MIME-info specification
 Name:		shared-mime-info
-Version:	1.3
-Release:	5
+Version:	1.4
+Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://freedesktop.org/~hadess/%{name}-%{version}.tar.xz
-# Source0-md5:	743720bc4803dd69f55449013d350f31
+# Source0-md5:	16c02f7b658fff2a9c207406d388ea31
 Source1:	audio.list
 Source2:	compressed.list
 Source3:	document.list
